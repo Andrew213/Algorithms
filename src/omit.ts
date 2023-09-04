@@ -8,7 +8,7 @@ export default function omit<T extends object>(obj: T, fields: (keyof T)[]) {
     }
   }
 
-  console.log(`newObj `, obj);
+
   return obj;
 }
 

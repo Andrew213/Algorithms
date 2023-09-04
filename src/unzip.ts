@@ -31,6 +31,6 @@ function unzip<T>(...args: T[][]): T[][] {
   return result;
 }
 
-console.log(unzip([1, 2, 3], [4], [5, 6]));
+// console.log(unzip([1, 2, 3], [4], [5, 6]));
 
 export default unzip;

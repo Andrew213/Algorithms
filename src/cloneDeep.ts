@@ -37,6 +37,6 @@ function cloneDeep(obj: any): any {
 const objects = [{ a: 1 }, { b: 2 }];
 const deep = cloneDeep(objects);
 
-console.log(deep[0] === objects[0]); // => false
+// console.log(deep[0] === objects[0]); // => false
 
 export default cloneDeep;
