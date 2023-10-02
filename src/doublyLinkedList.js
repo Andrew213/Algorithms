@@ -128,18 +128,18 @@ class DoublyLinkedList {
   }
 }
 
-const list = new DoublyLinkedList();
+// const list = new DoublyLinkedList();
 
-list.add("a", 1);
-// list.add("f")
-list.add("b");
-list.add("g");
+// list.add("a", 1);
+// // list.add("f")
+// list.add("b");
+// list.add("g");
 
-list.add("f", 2);
-list.add("c", 2);
+// list.add("f", 2);
+// list.add("c", 2);
 
-list.removeByValue("c");
+// list.removeByValue("c");
 
-list.add("k");
+// list.add("k");
 
-console.log(list);
+// console.log(list);

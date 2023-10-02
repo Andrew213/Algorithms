@@ -1,1 +1,1 @@
-import "./doublyLinkedList"
+import "./intersection"
