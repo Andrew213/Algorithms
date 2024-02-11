@@ -5,8 +5,7 @@
   "main": "isEmpty.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon",
-    "node": "node test.js"
+    "start": "npx nodemon"
   },
   "keywords": [],
   "author": "",
