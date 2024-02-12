@@ -1,1 +1,1 @@
-import "./150 interview questions/3";
+import "./150 interview questions/6";
