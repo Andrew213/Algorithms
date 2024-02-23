@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="tyk">Тык</button>
+    <button id="timer">Запускаем таймер</button>
+
+    <script>
+      "use strict";
+
+      let state = { ver: 0 };
+      const updateState = function () {
+        console.log(1);
+        const prevState = state;
+        const unused = function () {
+          if (prevState) {
+            console.log("here");
+          }
+        };
+        state = {
+          data: new Array(1024 * 1024).join("_"), // 2 мегабайта данных
+          ver: prevState.ver++,
+          log() {
+            console.log(this.ver);
+          },
+        };
+      };
+
+      tyk.onclick = updateState;
+      timer.onclick = () => setInterval(updateState, 500);
+    </script>
+  </body>
+</html>
