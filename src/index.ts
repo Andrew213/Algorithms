@@ -1,1 +1,1 @@
-import "./150 interview questions/JumpGame";
+import "./150 interview questions/H-Index";
