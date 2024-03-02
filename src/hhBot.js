@@ -27,9 +27,9 @@ const sendResponseLetter = () => {
     btn_send_letter.click();
   }, 1000);
 
-  // добавляю искусственную задержку
-
   setTimeout(() => {}, 1000);
+
+  // добавляю искусственную задержку
 };
 
 let skiped = 0;
@@ -81,6 +81,7 @@ const HHbot = () => {
     }
 
     if (textArea) {
+      console.log(`btn_close_popup `, btn_close_popup);
       setTimeout(() => {
         btn_close_popup.click();
       }, 100);
@@ -91,6 +92,8 @@ const HHbot = () => {
           resolve("result");
         }, 1000);
       });
+    } else {
+      sendResponseLetter();
     }
     setTimeout(() => {
       skiped += 1;
