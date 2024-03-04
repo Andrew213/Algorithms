@@ -27,8 +27,6 @@ const sendResponseLetter = () => {
     btn_send_letter.click();
   }, 1000);
 
-  setTimeout(() => {}, 1000);
-
   // добавляю искусственную задержку
 };
 
@@ -94,6 +92,7 @@ const HHbot = () => {
       });
     } else {
       sendResponseLetter();
+      setTimeout(() => {}, 1000);
     }
     setTimeout(() => {
       skiped += 1;
