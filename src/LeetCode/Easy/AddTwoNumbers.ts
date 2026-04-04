@@ -8,14 +8,7 @@ Output: [7,0,8]
 Explanation: 342 + 465 = 807.
  */
 
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
+import { ListNode } from "../../DataStructures/ListNode";
 
 // function addTwoNumbers(
 //   l1: ListNode | null,
@@ -30,7 +23,7 @@ const l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 
 function addTwoNumbers(
   l1: ListNode | null,
-  l2: ListNode | null
+  l2: ListNode | null,
 ): ListNode | null {
   const dummyHead = new ListNode(0);
   let current = dummyHead;

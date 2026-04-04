@@ -1,1 +1,1 @@
-import "./CheckObjectOrClass";
+import "./Normal/CheckObjectOrClass";
