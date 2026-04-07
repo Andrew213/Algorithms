@@ -41,7 +41,7 @@
 //   }
 
 //   return startIndex;
-// }
+// } брутфорс O(N в квадрате)
 
 function canCompleteCircuit(gas: number[], cost: number[]): number {
   let capacity = 0;
