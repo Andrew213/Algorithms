@@ -2,4 +2,4 @@
 // import "./YandexContest/TwoSum";
 // import "./LeetCode/Easy/RansomeNotes";
 // import "./LeetCode/Easy/MiddleOfTheLinkedList";
-import "./LeetCode/Easy/ArgumentsLength";
+import "./LeetCode/Easy/AllowOneFunctionCall";
